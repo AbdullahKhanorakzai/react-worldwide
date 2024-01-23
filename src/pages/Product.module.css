@@ -32,3 +32,13 @@
 .product section a {
   margin-top: 2rem;
 }
+@media (max-width: 500px) {
+  .product section {
+    width: clamp(40rem, 50%, 50rem);
+    margin: 6rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+  }
+}

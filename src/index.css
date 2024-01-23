@@ -25,7 +25,11 @@ html {
   font-size: 62.5%;
   box-sizing: border-box;
 }
-
+@media (max-width: 500px) {
+  html {
+    font-size: 37%;
+  }
+}
 body {
   font-family: "Manrope", sans-serif;
   color: var(--color-light--2);
@@ -38,6 +42,12 @@ label {
   font-weight: 600;
 }
 
+@media (max-width: 500px) {
+  label {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+}
 input,
 textarea {
   width: 100%;

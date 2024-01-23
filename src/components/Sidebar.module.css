@@ -7,8 +7,15 @@
   flex-direction: column;
   align-items: center;
   height: calc(100vh - 4.8rem);
+  position: relative;
 }
+@media (max-width: 500px) {
+  .sidebar {
+    flex-basis: 46rem;
 
+    height: calc(50vh - 4.8rem);
+  }
+}
 .footer {
   margin-top: auto;
 }

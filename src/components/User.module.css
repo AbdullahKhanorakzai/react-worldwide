@@ -14,6 +14,15 @@
   align-items: center;
   gap: 1.6rem;
 }
+@media (max-width: 500px) {
+  .user {
+    position: absolute;
+    top: 40%;
+    right: 2rem;
+    width: 10rem;
+    flex-direction: column;
+  }
+}
 
 .user img {
   border-radius: 100px;

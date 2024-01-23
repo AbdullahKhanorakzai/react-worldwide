@@ -92,29 +92,31 @@ function Form() {
       className={`${styles.form} ${isLoading ? styles.loading : ""}`}
       onSubmit={handleSubmit}
     >
-      <div className={styles.row}>
-        <label htmlFor="cityName">City name</label>
-        <input
-          id="cityName"
-          onChange={(e) => setCityName(e.target.value)}
-          value={cityName}
-        />
-        <span className={styles.flag}>{emoji}</span>
-      </div>
+      <div className={styles.rows}>
+        <div className={`${styles.row}`}>
+          <label htmlFor="cityName">City name</label>
+          <input
+            id="cityName"
+            onChange={(e) => setCityName(e.target.value)}
+            value={cityName}
+          />
+          <span className={styles.flag}>{emoji}</span>
+        </div>
 
-      <div className={styles.row}>
-        <label htmlFor="date">When did you go to {cityName}?</label>
-        {/* <input
+        <div className={styles.row}>
+          <label htmlFor="date">When did you go to {cityName}?</label>
+          {/* <input
           id="date"
           onChange={(e) => setDate(e.target.value)}
           value={date}
         /> */}
-        <DatePicker
-          id="date"
-          selected={date}
-          onChange={(date) => setDate(date)}
-          formate="dd/MM/yyyy"
-        />
+          <DatePicker
+            id="date"
+            selected={date}
+            onChange={(date) => setDate(date)}
+            formate="dd/MM/yyyy"
+          />
+        </div>
       </div>
 
       <div className={styles.row}>

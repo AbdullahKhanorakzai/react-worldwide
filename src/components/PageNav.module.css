@@ -10,7 +10,11 @@
   align-items: center;
   gap: 4rem;
 }
-
+@media (max-width: 500px) {
+  .nav ul {
+    gap: 2rem;
+  }
+}
 .nav a:link,
 .nav a:visited {
   text-decoration: none;

@@ -1,15 +1,27 @@
 {
   "cities": [
     {
-      "id": "4a60",
-      "cityName": "Peshawar",
-      "emoji": "🇵🇰",
-      "country": "Pakistan",
-      "date": "2024-01-23T10:38:41.254Z",
-      "notes": "Note!",
+      "id": "33da",
+      "cityName": "Castello de la Plana",
+      "emoji": "🇪🇸",
+      "country": "Spain",
+      "date": "2024-01-23T12:44:56.166Z",
+      "notes": "",
       "position": {
-        "lat": "34.01467672358157",
-        "lng": "71.57215118408205"
+        "lat": "40.02111447481685",
+        "lng": "-0.0039530487966410455"
+      }
+    },
+    {
+      "id": "d613",
+      "cityName": "Castello de la Plana",
+      "emoji": "🇪🇸",
+      "country": "Spain",
+      "date": "2024-01-23T12:45:33.002Z",
+      "notes": "",
+      "position": {
+        "lat": "39.987856191998155",
+        "lng": "-0.06643715907800997"
       }
     }
   ]
