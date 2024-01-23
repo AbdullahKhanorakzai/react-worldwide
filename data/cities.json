@@ -1,0 +1,16 @@
+{
+  "cities": [
+    {
+      "id": "4a60",
+      "cityName": "Peshawar",
+      "emoji": "🇵🇰",
+      "country": "Pakistan",
+      "date": "2024-01-23T10:38:41.254Z",
+      "notes": "Note!",
+      "position": {
+        "lat": "34.01467672358157",
+        "lng": "71.57215118408205"
+      }
+    }
+  ]
+}
