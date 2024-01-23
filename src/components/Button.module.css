@@ -33,3 +33,11 @@
   color: var(--color-dark--1);
   box-shadow: 0 0.4rem 1.2rem rgba(36, 42, 46, 0.16);
 }
+
+@media (max-width: 500px) {
+  .position {
+    bottom: 10rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
